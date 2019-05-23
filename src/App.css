@@ -1,0 +1,53 @@
+body{
+  margin-top :5%;
+  margin-left:5%;
+}
+.App,.hunter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn{
+  display: flex;
+  margin-top:5%;
+}
+.start{
+  background-color: green;
+  font-size:140%;
+  width: 150px;
+  height: 75px;
+  margin:10px;
+}
+.reset{
+  font-size:140%;
+  background-color: red;
+  width: 150px;
+  height: 75px;
+  margin:10px;
+}
+.pause{
+  background-color: orange;
+  font-size:140%;
+  width: 150px;
+  height: 75px;
+  margin:10px;
+}
+.timer{
+  display: flex;
+ }
+.double{
+font-size: 600%;
+margin:1%;
+ }
+.hour,.minute,.second{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+.text{
+ font-size: 200%;
+ color: gray;
+}
+.num{
+  font-size: 700%;
+ }
